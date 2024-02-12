@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 90%;
+  margin: 0px auto;
+}
+.logo {
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 26px;
+  font-weight: 600;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.res-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  justify-content: stretch;
+  margin: 30px auto;
+  gap: 12px;
+  transition: all 0.05s ease 0s;
+}
+.res-card {
+  width: 200px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 17px;
+}
+.res-card:hover {
+  transform: scale(0.95, 0.95);
+  transform-origin: center center;
+  transition: all 0.1s ease-in 0s;
+}
+.cuisines {
+  overflow-wrap: break-word;
+}
+
+.res-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 17px;
+}
+.res-details {
+  padding-left: 15px;
+}
