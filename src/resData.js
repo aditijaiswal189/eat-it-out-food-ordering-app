@@ -1,4 +1,4 @@
-export const resObj = [
+export const resList = [
   {
     "info": {
       "id": "13927",
@@ -7,6 +7,8 @@ export const resObj = [
       "locality": "Kasba",
       "areaName": "Kasba",
       "costForTwo": "₹300 for two",
+      "header": "₹150 OFF",
+      "subHeader": "ABOVE ₹499",
       "cuisines": [
         "Tibetan",
         "Healthy Food",
@@ -52,8 +54,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "₹150 OFF",
-        "subHeader": "ABOVE ₹499",
+
         "discountTag": "FLAT DEAL"
       },
       "differentiatedUi": {
@@ -164,6 +165,8 @@ export const resObj = [
       "name": "KFC",
       "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
       "locality": "Kasba",
+      "header": "20% OFF",
+      "subHeader": "UPTO ₹50",
       "areaName": "Kasba RB Connector",
       "costForTwo": "₹450 for two",
       "cuisines": [
@@ -208,8 +211,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "20% OFF",
-        "subHeader": "UPTO ₹50"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -247,6 +249,8 @@ export const resObj = [
       "locality": "Elgin Road",
       "areaName": "Ballygunge",
       "costForTwo": "₹300 for two",
+      "header": "40% OFF",
+      "subHeader": "UPTO ₹80",
       "cuisines": [
         "North Indian",
         "Chinese",
@@ -303,8 +307,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "40% OFF",
-        "subHeader": "UPTO ₹80"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -342,6 +345,8 @@ export const resObj = [
       "locality": "Kasba",
       "areaName": "East Kolkata Township",
       "costForTwo": "₹350 for two",
+      "header": "ITEMS",
+      "subHeader": "AT ₹129",
       "cuisines": [
         "Burgers",
         "American"
@@ -381,8 +386,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "ITEMS",
-        "subHeader": "AT ₹129"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -420,6 +424,8 @@ export const resObj = [
       "locality": "Golpark",
       "areaName": "Golpark",
       "costForTwo": "₹400 for two",
+      "header": "50% OFF",
+      "subHeader": "UPTO ₹100",
       "cuisines": [
         "Bengali",
         "Desserts"
@@ -459,8 +465,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "50% OFF",
-        "subHeader": "UPTO ₹100"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -498,6 +503,8 @@ export const resObj = [
       "locality": "Block Eg",
       "areaName": "Rajdanga Main Road",
       "costForTwo": "₹250 for two",
+      "header": "20% OFF",
+      "subHeader": "UPTO ₹50",
       "cuisines": [
         "Bengali",
         "Street Food",
@@ -540,8 +547,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "20% OFF",
-        "subHeader": "UPTO ₹50"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -577,6 +583,8 @@ export const resObj = [
       "name": "Momo I am",
       "cloudinaryImageId": "vuygl4mrkquhg0ma5dqv",
       "areaName": "Golpark",
+      "header": "40% OFF",
+      "subHeader": "UPTO ₹80",
       "costForTwo": "₹350 for two",
       "cuisines": [
         "Asian",
@@ -618,8 +626,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "40% OFF",
-        "subHeader": "UPTO ₹80"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -751,6 +758,8 @@ export const resObj = [
       "locality": "Acropolis",
       "areaName": "Acropolis Mall",
       "costForTwo": "₹250 for two",
+      "header": "30% OFF",
+      "subHeader": "UPTO ₹75",
       "cuisines": [
         "Juices",
         "Beverages",
@@ -824,8 +833,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "30% OFF",
-        "subHeader": "UPTO ₹75"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -955,6 +963,8 @@ export const resObj = [
       "locality": "Near Kalighat Metro, Rash Behari Avenue",
       "areaName": "Kalighat",
       "costForTwo": "₹250 for two",
+      "header": "10% OFF",
+      "subHeader": "ABOVE ₹800",
       "cuisines": [
         "Chinese"
       ],
@@ -993,8 +1003,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "10% OFF",
-        "subHeader": "ABOVE ₹800",
+
         "discountTag": "FLAT DEAL"
       },
       "differentiatedUi": {
@@ -1032,6 +1041,8 @@ export const resObj = [
       "cloudinaryImageId": "criuo3dsgvodsed1vxl2",
       "locality": "Near 8B Bus stand",
       "areaName": "Jadavpur",
+      "header": "30% OFF",
+      "subHeader": "UPTO ₹75",
       "costForTwo": "₹200 for two",
       "cuisines": [
         "Snacks",
@@ -1073,8 +1084,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "30% OFF",
-        "subHeader": "UPTO ₹75"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1112,6 +1122,8 @@ export const resObj = [
       "locality": "Ballygunge",
       "areaName": "Ballygunge",
       "costForTwo": "₹900 for two",
+      "header": "20% OFF",
+      "subHeader": "UPTO ₹50",
       "cuisines": [
         "Bengali",
         "Biryani"
@@ -1151,8 +1163,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "20% OFF",
-        "subHeader": "UPTO ₹50"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1189,6 +1200,8 @@ export const resObj = [
       "cloudinaryImageId": "b64bf721e12e7b3df82c832898999c51",
       "locality": "Gariahat",
       "areaName": "Gariahat",
+      "header": "₹125 OFF",
+      "subHeader": "ABOVE ₹249",
       "costForTwo": "₹350 for two",
       "cuisines": [
         "Beverages",
@@ -1230,8 +1243,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "₹125 OFF",
-        "subHeader": "ABOVE ₹249",
+
         "discountTag": "FLAT DEAL"
       },
       "differentiatedUi": {
@@ -1270,6 +1282,8 @@ export const resObj = [
       "locality": "E M Bypass",
       "areaName": "E M Bypass",
       "costForTwo": "₹300 for two",
+      "header": "50% OFF",
+      "subHeader": "UPTO ₹100",
       "cuisines": [
         "North Indian",
         "Kebabs",
@@ -1317,8 +1331,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "50% OFF",
-        "subHeader": "UPTO ₹100"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1356,6 +1369,8 @@ export const resObj = [
       "locality": "Ruby",
       "areaName": "Vip Nagar",
       "costForTwo": "₹250 for two",
+      "header": "30% OFF",
+      "subHeader": "UPTO ₹75",
       "cuisines": [
         "Ice Cream",
         "Desserts",
@@ -1418,8 +1433,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "30% OFF",
-        "subHeader": "UPTO ₹75"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1457,6 +1471,8 @@ export const resObj = [
       "locality": "Ruby Area",
       "areaName": "Ballygunge",
       "costForTwo": "₹400 for two",
+      "header": "ITEMS",
+      "subHeader": "AT ₹159",
       "cuisines": [
         "Bengali",
         "Thalis",
@@ -1497,8 +1513,7 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "ITEMS",
-        "subHeader": "AT ₹159"
+
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1536,6 +1551,8 @@ export const resObj = [
       "locality": "R.K.Chatterjee Road",
       "areaName": "Kasba",
       "costForTwo": "₹250 for two",
+      "header": "20% OFF",
+      "subHeader": "UPTO ₹50",
       "cuisines": [
         "Bakery",
         "Desserts"
@@ -1575,8 +1592,6 @@ export const resObj = [
         }
       },
       "aggregatedDiscountInfoV3": {
-        "header": "20% OFF",
-        "subHeader": "UPTO ₹50"
       },
       "differentiatedUi": {
         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",

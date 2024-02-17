@@ -1,26 +1,29 @@
 function RestaurantCard(props) {
   const { resData } = props;
+  const { cloudinaryImageId, name, avgRatingString, sla, cuisines, locality } =
+    resData?.info;
   console.log(resData);
   return (
     <div className="res-card">
-      <img
-        src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-          resData.info.cloudinaryImageId
-        }
-        className="res-image"
-        alt="foodimage"
-      />
+      <div className="image-div">
+        <img
+          src={
+            "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+            cloudinaryImageId
+          }
+          className="res-image"
+          alt="foodimage"
+        />
+      </div>
       <div className="res-details">
-        <h3>{resData.info.name}</h3>
+        <h3>{name}</h3>
 
         <h4>
-          {resData.info.avgRatingString} stars &#8226;{" "}
-          {resData.info.sla.slaString}
+          {avgRatingString} stars &#8226; {sla.slaString}
         </h4>
 
-        <h4 className="cuisines">{resData.info.cuisines.join(", ")}</h4>
-        <h4>{resData.info.differentiatedUi.locality}</h4>
+        <h4 className="cuisines">{cuisines.join(", ")}</h4>
+        <h4>{locality}</h4>
       </div>
     </div>
   );
