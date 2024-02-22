@@ -1,4 +1,8 @@
-.header {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .header {
   display: flex;
   justify-content: space-between;
 
@@ -75,4 +79,4 @@
 
 .res-details {
   padding-left: 15px;
-}
+} */
