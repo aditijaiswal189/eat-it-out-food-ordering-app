@@ -14,19 +14,5 @@ function App() {
     </div>
   );
 }
-export const appRouter = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-]);
 
 export default App;
